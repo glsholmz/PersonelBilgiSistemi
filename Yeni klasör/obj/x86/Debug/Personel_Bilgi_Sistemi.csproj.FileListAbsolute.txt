@@ -1,0 +1,53 @@
+D:\Personel_Bilgi_Sistemi\Personel_Bilgi_Sistemi\bin\Debug\Personel_Bilgi_Sistemi.exe
+D:\Personel_Bilgi_Sistemi\Personel_Bilgi_Sistemi\bin\Debug\Personel_Bilgi_Sistemi.pdb
+D:\Personel_Bilgi_Sistemi\Personel_Bilgi_Sistemi\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Personel_Bilgi_Sistemi\Personel_Bilgi_Sistemi\obj\x86\Debug\Personel_Bilgi_Sistemi.Form1.resources
+D:\Personel_Bilgi_Sistemi\Personel_Bilgi_Sistemi\obj\x86\Debug\Personel_Bilgi_Sistemi.Properties.Resources.resources
+D:\Personel_Bilgi_Sistemi\Personel_Bilgi_Sistemi\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Personel_Bilgi_Sistemi\Personel_Bilgi_Sistemi\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Personel_Bilgi_Sistemi\Personel_Bilgi_Sistemi\obj\x86\Debug\Personel_Bilgi_Sistemi.exe
+D:\Personel_Bilgi_Sistemi\Personel_Bilgi_Sistemi\obj\x86\Debug\Personel_Bilgi_Sistemi.pdb
+D:\Personel_Bilgi_Sistemi\Personel_Bilgi_Sistemi\bin\Debug\Personel.mdf
+D:\Personel_Bilgi_Sistemi\Personel_Bilgi_Sistemi\bin\Debug\Personel_log.ldf
+D:\Personel_Bilgi_Sistemi\Personel_Bilgi_Sistemi\bin\Debug\Personel_Bilgi_Sistemi.exe.config
+D:\Personel_Bilgi_Sistemi\Personel_Bilgi_Sistemi\obj\x86\Debug\Personel_Bilgi_Sistemi.Form2.resources
+D:\Personel_Bilgi_Sistemi\Personel_Bilgi_Sistemi\obj\x86\Debug\Personel_Bilgi_Sistemi.Form3.resources
+D:\Personel_Bilgi_Sistemi\Personel_Bilgi_Sistemi\obj\x86\Debug\Personel_Bilgi_Sistemi.Form4.resources
+D:\Personel_Bilgi_Sistemi\Personel_Bilgi_Sistemi\obj\x86\Debug\Personel_Bilgi_Sistemi.Form5.resources
+D:\Personel_Bilgi_Sistemi\Personel_Bilgi_Sistemi\obj\x86\Debug\Personel_Bilgi_Sistemi.Form6.resources
+D:\Personel_Bilgi_Sistemi\Personel_Bilgi_Sistemi\obj\x86\Debug\Personel_Bilgi_Sistemi.Form7.resources
+C:\Users\gülşah\Desktop\database final\grp15_codes\Personel_Bilgi_Sistemi\Personel_Bilgi_Sistemi\bin\Debug\Personel_Bilgi_Sistemi.exe.config
+C:\Users\gülşah\Desktop\database final\grp15_codes\Personel_Bilgi_Sistemi\Personel_Bilgi_Sistemi\obj\x86\Debug\Personel_Bilgi_Sistemi.exe
+C:\Users\gülşah\Desktop\database final\grp15_codes\Personel_Bilgi_Sistemi\Personel_Bilgi_Sistemi\obj\x86\Debug\Personel_Bilgi_Sistemi.pdb
+C:\Users\gülşah\Desktop\database final\grp15_codes\Personel_Bilgi_Sistemi\Personel_Bilgi_Sistemi\bin\Debug\Personel.mdf
+C:\Users\gülşah\Desktop\database final\grp15_codes\Personel_Bilgi_Sistemi\Personel_Bilgi_Sistemi\bin\Debug\Personel_log.ldf
+C:\Users\gülşah\Desktop\database final\grp15_codes\Personel_Bilgi_Sistemi\Personel_Bilgi_Sistemi\bin\Debug\Personel_Bilgi_Sistemi.exe
+C:\Users\gülşah\Desktop\database final\grp15_codes\Personel_Bilgi_Sistemi\Personel_Bilgi_Sistemi\bin\Debug\Personel_Bilgi_Sistemi.pdb
+C:\Users\gülşah\Desktop\database final\grp15_codes\Personel_Bilgi_Sistemi\Personel_Bilgi_Sistemi\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\gülşah\Desktop\database final\grp15_codes\Personel_Bilgi_Sistemi\Personel_Bilgi_Sistemi\obj\x86\Debug\Personel_Bilgi_Sistemi.Form1.resources
+C:\Users\gülşah\Desktop\database final\grp15_codes\Personel_Bilgi_Sistemi\Personel_Bilgi_Sistemi\obj\x86\Debug\Personel_Bilgi_Sistemi.Form2.resources
+C:\Users\gülşah\Desktop\database final\grp15_codes\Personel_Bilgi_Sistemi\Personel_Bilgi_Sistemi\obj\x86\Debug\Personel_Bilgi_Sistemi.Form3.resources
+C:\Users\gülşah\Desktop\database final\grp15_codes\Personel_Bilgi_Sistemi\Personel_Bilgi_Sistemi\obj\x86\Debug\Personel_Bilgi_Sistemi.Form4.resources
+C:\Users\gülşah\Desktop\database final\grp15_codes\Personel_Bilgi_Sistemi\Personel_Bilgi_Sistemi\obj\x86\Debug\Personel_Bilgi_Sistemi.Form5.resources
+C:\Users\gülşah\Desktop\database final\grp15_codes\Personel_Bilgi_Sistemi\Personel_Bilgi_Sistemi\obj\x86\Debug\Personel_Bilgi_Sistemi.Form6.resources
+C:\Users\gülşah\Desktop\database final\grp15_codes\Personel_Bilgi_Sistemi\Personel_Bilgi_Sistemi\obj\x86\Debug\Personel_Bilgi_Sistemi.Form7.resources
+C:\Users\gülşah\Desktop\database final\grp15_codes\Personel_Bilgi_Sistemi\Personel_Bilgi_Sistemi\obj\x86\Debug\Personel_Bilgi_Sistemi.Properties.Resources.resources
+C:\Users\gülşah\Desktop\database final\grp15_codes\Personel_Bilgi_Sistemi\Personel_Bilgi_Sistemi\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\gülşah\Desktop\database final\grp15_codes\Personel_Bilgi_Sistemi\Personel_Bilgi_Sistemi\obj\x86\Debug\GenerateResource.write.1.tlog
+I:\database final\grp15_codes\Personel_Bilgi_Sistemi\Personel_Bilgi_Sistemi\bin\Debug\Personel_Bilgi_Sistemi.exe.config
+I:\database final\grp15_codes\Personel_Bilgi_Sistemi\Personel_Bilgi_Sistemi\obj\x86\Debug\Personel_Bilgi_Sistemi.exe
+I:\database final\grp15_codes\Personel_Bilgi_Sistemi\Personel_Bilgi_Sistemi\obj\x86\Debug\Personel_Bilgi_Sistemi.pdb
+I:\database final\grp15_codes\Personel_Bilgi_Sistemi\Personel_Bilgi_Sistemi\bin\Debug\Personel.mdf
+I:\database final\grp15_codes\Personel_Bilgi_Sistemi\Personel_Bilgi_Sistemi\bin\Debug\Personel_log.ldf
+I:\database final\grp15_codes\Personel_Bilgi_Sistemi\Personel_Bilgi_Sistemi\bin\Debug\Personel_Bilgi_Sistemi.exe
+I:\database final\grp15_codes\Personel_Bilgi_Sistemi\Personel_Bilgi_Sistemi\bin\Debug\Personel_Bilgi_Sistemi.pdb
+I:\database final\grp15_codes\Personel_Bilgi_Sistemi\Personel_Bilgi_Sistemi\obj\x86\Debug\Personel_Bilgi_Sistemi.csprojResolveAssemblyReference.cache
+I:\database final\grp15_codes\Personel_Bilgi_Sistemi\Personel_Bilgi_Sistemi\obj\x86\Debug\Personel_Bilgi_Sistemi.Form1.resources
+I:\database final\grp15_codes\Personel_Bilgi_Sistemi\Personel_Bilgi_Sistemi\obj\x86\Debug\Personel_Bilgi_Sistemi.Form2.resources
+I:\database final\grp15_codes\Personel_Bilgi_Sistemi\Personel_Bilgi_Sistemi\obj\x86\Debug\Personel_Bilgi_Sistemi.Form3.resources
+I:\database final\grp15_codes\Personel_Bilgi_Sistemi\Personel_Bilgi_Sistemi\obj\x86\Debug\Personel_Bilgi_Sistemi.Form4.resources
+I:\database final\grp15_codes\Personel_Bilgi_Sistemi\Personel_Bilgi_Sistemi\obj\x86\Debug\Personel_Bilgi_Sistemi.Form5.resources
+I:\database final\grp15_codes\Personel_Bilgi_Sistemi\Personel_Bilgi_Sistemi\obj\x86\Debug\Personel_Bilgi_Sistemi.Form6.resources
+I:\database final\grp15_codes\Personel_Bilgi_Sistemi\Personel_Bilgi_Sistemi\obj\x86\Debug\Personel_Bilgi_Sistemi.Form7.resources
+I:\database final\grp15_codes\Personel_Bilgi_Sistemi\Personel_Bilgi_Sistemi\obj\x86\Debug\Personel_Bilgi_Sistemi.Properties.Resources.resources
+I:\database final\grp15_codes\Personel_Bilgi_Sistemi\Personel_Bilgi_Sistemi\obj\x86\Debug\Personel_Bilgi_Sistemi.csproj.GenerateResource.Cache

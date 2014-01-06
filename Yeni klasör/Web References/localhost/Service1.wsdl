@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="PersonelBilgilerini_Al">
+        <s:complexType />
+      </s:element>
+      <s:element name="PersonelBilgilerini_AlResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PersonelBilgilerini_AlResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="personel_kayit">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tc_kimlik_no" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ad" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="soyad" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dogum_yeri" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dogum_tarihi" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cinsiyet" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="uyruk" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="unvan" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="personel_no" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="personel_no2" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ev_telefonu" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cep_telefonu" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="e_posta" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="il" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ilce" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="adres" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="personel_no3" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ise_giris_tarihi" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="firma" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sube" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="calistigi_birim" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sigorta_sicil_no" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="personel_no4" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="vergi_numarasi" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="vergi_dairesi" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="banka" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="banka_subesi" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="banka_hesap_no" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="personel_no5" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ilkokul_adi" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ilkokul_baslama_tarihi" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ilkokul_mezun_olma_tarihi" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="lise_adi" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="lise_baslama_tarihi" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="lise_mezun_olma_tarihi" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="universite_adi" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="bolumu" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="uni_baslama_tarihi" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="uni_mezun_olma_tarihi" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="egitim_adi" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="egitim_bilgi" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="egitim_baslama_tarihi" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="egitim_bitirme_tarihi" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="personel_no6" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="isten_ayrilma_nedeni" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="isten_ayrilma_tarihi" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="askerlik_durumu" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="tecil_nedeni" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sakatlik_durumu" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="medeni_durum" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cocuk_sayisi" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="kan_grubu" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ehliyet" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="kizlik_soyadi" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="rapor_aldigi_gun_sayisi" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="izinli_gun_sayisi" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="servis_kullanimi" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="personel_kayitResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="personel_kayitResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="KisiDondurad">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ad" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="KisiDonduradResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="KisiDonduradResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="KisiDondurtc">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tc_kimlik_no" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="KisiDondurtcResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="KisiDondurtcResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="KisiDondurpers">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="personel_no" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="KisiDondurpersResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="KisiDondurpersResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="KisiSil">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="personel_no" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="KisiSilResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="KisiGuncelle">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tc_kimlik_no" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ad" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="soyad" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dogum_yeri" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dogum_tarihi" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cinsiyet" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="uyruk" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="unvan" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="personel_no" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ev_telefonu" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cep_telefonu" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="e_posta" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="il" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ilce" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="adres" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ise_giris_tarihi" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="firma" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sube" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="calistigi_birim" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sigorta_sicil_no" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="vergi_numarasi" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="vergi_dairesi" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="banka" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="banka_subesi" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="banka_hesap_no" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ilkokul_adi" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ilkokul_baslama_tarihi" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ilkokul_mezun_olma_tarihi" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="lise_adi" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="lise_baslama_tarihi" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="lise_mezun_olma_tarihi" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="universite_adi" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="bolumu" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="uni_baslama_tarihi" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="uni_mezun_olma_tarihi" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="egitim_adi" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="egitim_bilgi" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="egitim_baslama_tarihi" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="egitim_bitirme_tarihi" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="isten_ayrilma_nedeni" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="isten_ayrilma_tarihi" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="askerlik_durumu" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="tecil_nedeni" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sakatlik_durumu" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="medeni_durum" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cocuk_sayisi" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="kan_grubu" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ehliyet" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="kizlik_soyadi" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="rapor_aldigi_gun_sayisi" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="izinli_gun_sayisi" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="servis_kullanimi" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="KisiGuncelleResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="KisiGuncelleResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="PersonelBilgilerini_AlSoapIn">
+    <wsdl:part name="parameters" element="tns:PersonelBilgilerini_Al" />
+  </wsdl:message>
+  <wsdl:message name="PersonelBilgilerini_AlSoapOut">
+    <wsdl:part name="parameters" element="tns:PersonelBilgilerini_AlResponse" />
+  </wsdl:message>
+  <wsdl:message name="personel_kayitSoapIn">
+    <wsdl:part name="parameters" element="tns:personel_kayit" />
+  </wsdl:message>
+  <wsdl:message name="personel_kayitSoapOut">
+    <wsdl:part name="parameters" element="tns:personel_kayitResponse" />
+  </wsdl:message>
+  <wsdl:message name="KisiDonduradSoapIn">
+    <wsdl:part name="parameters" element="tns:KisiDondurad" />
+  </wsdl:message>
+  <wsdl:message name="KisiDonduradSoapOut">
+    <wsdl:part name="parameters" element="tns:KisiDonduradResponse" />
+  </wsdl:message>
+  <wsdl:message name="KisiDondurtcSoapIn">
+    <wsdl:part name="parameters" element="tns:KisiDondurtc" />
+  </wsdl:message>
+  <wsdl:message name="KisiDondurtcSoapOut">
+    <wsdl:part name="parameters" element="tns:KisiDondurtcResponse" />
+  </wsdl:message>
+  <wsdl:message name="KisiDondurpersSoapIn">
+    <wsdl:part name="parameters" element="tns:KisiDondurpers" />
+  </wsdl:message>
+  <wsdl:message name="KisiDondurpersSoapOut">
+    <wsdl:part name="parameters" element="tns:KisiDondurpersResponse" />
+  </wsdl:message>
+  <wsdl:message name="KisiSilSoapIn">
+    <wsdl:part name="parameters" element="tns:KisiSil" />
+  </wsdl:message>
+  <wsdl:message name="KisiSilSoapOut">
+    <wsdl:part name="parameters" element="tns:KisiSilResponse" />
+  </wsdl:message>
+  <wsdl:message name="KisiGuncelleSoapIn">
+    <wsdl:part name="parameters" element="tns:KisiGuncelle" />
+  </wsdl:message>
+  <wsdl:message name="KisiGuncelleSoapOut">
+    <wsdl:part name="parameters" element="tns:KisiGuncelleResponse" />
+  </wsdl:message>
+  <wsdl:portType name="Service1Soap">
+    <wsdl:operation name="PersonelBilgilerini_Al">
+      <wsdl:input message="tns:PersonelBilgilerini_AlSoapIn" />
+      <wsdl:output message="tns:PersonelBilgilerini_AlSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="personel_kayit">
+      <wsdl:input message="tns:personel_kayitSoapIn" />
+      <wsdl:output message="tns:personel_kayitSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="KisiDondurad">
+      <wsdl:input message="tns:KisiDonduradSoapIn" />
+      <wsdl:output message="tns:KisiDonduradSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="KisiDondurtc">
+      <wsdl:input message="tns:KisiDondurtcSoapIn" />
+      <wsdl:output message="tns:KisiDondurtcSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="KisiDondurpers">
+      <wsdl:input message="tns:KisiDondurpersSoapIn" />
+      <wsdl:output message="tns:KisiDondurpersSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="KisiSil">
+      <wsdl:input message="tns:KisiSilSoapIn" />
+      <wsdl:output message="tns:KisiSilSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="KisiGuncelle">
+      <wsdl:input message="tns:KisiGuncelleSoapIn" />
+      <wsdl:output message="tns:KisiGuncelleSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="Service1Soap" type="tns:Service1Soap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="PersonelBilgilerini_Al">
+      <soap:operation soapAction="http://tempuri.org/PersonelBilgilerini_Al" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="personel_kayit">
+      <soap:operation soapAction="http://tempuri.org/personel_kayit" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="KisiDondurad">
+      <soap:operation soapAction="http://tempuri.org/KisiDondurad" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="KisiDondurtc">
+      <soap:operation soapAction="http://tempuri.org/KisiDondurtc" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="KisiDondurpers">
+      <soap:operation soapAction="http://tempuri.org/KisiDondurpers" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="KisiSil">
+      <soap:operation soapAction="http://tempuri.org/KisiSil" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="KisiGuncelle">
+      <soap:operation soapAction="http://tempuri.org/KisiGuncelle" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="Service1Soap12" type="tns:Service1Soap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="PersonelBilgilerini_Al">
+      <soap12:operation soapAction="http://tempuri.org/PersonelBilgilerini_Al" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="personel_kayit">
+      <soap12:operation soapAction="http://tempuri.org/personel_kayit" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="KisiDondurad">
+      <soap12:operation soapAction="http://tempuri.org/KisiDondurad" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="KisiDondurtc">
+      <soap12:operation soapAction="http://tempuri.org/KisiDondurtc" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="KisiDondurpers">
+      <soap12:operation soapAction="http://tempuri.org/KisiDondurpers" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="KisiSil">
+      <soap12:operation soapAction="http://tempuri.org/KisiSil" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="KisiGuncelle">
+      <soap12:operation soapAction="http://tempuri.org/KisiGuncelle" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service1">
+    <wsdl:port name="Service1Soap" binding="tns:Service1Soap">
+      <soap:address location="http://localhost:47990/Service1.asmx" />
+    </wsdl:port>
+    <wsdl:port name="Service1Soap12" binding="tns:Service1Soap12">
+      <soap12:address location="http://localhost:47990/Service1.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
